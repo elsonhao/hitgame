@@ -10,8 +10,11 @@
 		AFF357611E5D3B5800D5B64E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF357601E5D3B5800D5B64E /* AppDelegate.swift */; };
 		AFF357631E5D3B5800D5B64E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF357621E5D3B5800D5B64E /* ViewController.swift */; };
 		AFF357661E5D3B5800D5B64E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF357641E5D3B5800D5B64E /* Main.storyboard */; };
-		AFF357681E5D3B5800D5B64E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF357671E5D3B5800D5B64E /* Assets.xcassets */; };
 		AFF3576B1E5D3B5800D5B64E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF357691E5D3B5800D5B64E /* LaunchScreen.storyboard */; };
+		AFF357731E5D3BF000D5B64E /* 地鼠.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AFF357721E5D3BF000D5B64E /* 地鼠.jpeg */; };
+		AFF357751E5D3C1800D5B64E /* 土地.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AFF357741E5D3C1800D5B64E /* 土地.jpeg */; };
+		AFF357791E5D6B8E00D5B64E /* 地鼠180x180.png in Resources */ = {isa = PBXBuildFile; fileRef = AFF357781E5D6B8E00D5B64E /* 地鼠180x180.png */; };
+		AFF3577D1E5D6BF400D5B64E /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF3577C1E5D6BF400D5B64E /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,9 +22,12 @@
 		AFF357601E5D3B5800D5B64E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFF357621E5D3B5800D5B64E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AFF357651E5D3B5800D5B64E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AFF357671E5D3B5800D5B64E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFF3576A1E5D3B5800D5B64E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFF3576C1E5D3B5800D5B64E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFF357721E5D3BF000D5B64E /* 地鼠.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "地鼠.jpeg"; sourceTree = "<group>"; };
+		AFF357741E5D3C1800D5B64E /* 土地.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "土地.jpeg"; sourceTree = "<group>"; };
+		AFF357781E5D6B8E00D5B64E /* 地鼠180x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地鼠180x180.png"; sourceTree = "<group>"; };
+		AFF3577C1E5D6BF400D5B64E /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				AFF357601E5D3B5800D5B64E /* AppDelegate.swift */,
+				AFF357721E5D3BF000D5B64E /* 地鼠.jpeg */,
+				AFF357741E5D3C1800D5B64E /* 土地.jpeg */,
 				AFF357621E5D3B5800D5B64E /* ViewController.swift */,
 				AFF357641E5D3B5800D5B64E /* Main.storyboard */,
-				AFF357671E5D3B5800D5B64E /* Assets.xcassets */,
+				AFF357781E5D6B8E00D5B64E /* 地鼠180x180.png */,
 				AFF357691E5D3B5800D5B64E /* LaunchScreen.storyboard */,
 				AFF3576C1E5D3B5800D5B64E /* Info.plist */,
+				AFF3577C1E5D6BF400D5B64E /* Media.xcassets */,
 			);
 			path = UIkitPractice;
 			sourceTree = "<group>";
@@ -124,9 +133,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFF357751E5D3C1800D5B64E /* 土地.jpeg in Resources */,
 				AFF3576B1E5D3B5800D5B64E /* LaunchScreen.storyboard in Resources */,
-				AFF357681E5D3B5800D5B64E /* Assets.xcassets in Resources */,
 				AFF357661E5D3B5800D5B64E /* Main.storyboard in Resources */,
+				AFF357731E5D3BF000D5B64E /* 地鼠.jpeg in Resources */,
+				AFF3577D1E5D6BF400D5B64E /* Media.xcassets in Resources */,
+				AFF357791E5D6B8E00D5B64E /* 地鼠180x180.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
